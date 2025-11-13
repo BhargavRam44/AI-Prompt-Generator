@@ -22,7 +22,7 @@ class OllamaPromptGenerator:
             try:
                 print("Starting Ollama server...")
                 self.ollama_process = subprocess.Popen(
-                    [r"C:\\Users\\Bhargav\\AppData\\Local\\Programs\\Ollama\\ollama.exe", "serve"],
+                    [r"Your ollamma file location(.exe) should be pasted here", "serve"],
                     stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL
                 )
                 for attempt in range(20):
@@ -186,3 +186,4 @@ if __name__ == "__main__":
     root = ctk.CTk()
     app = PromptChatApp(root)
     root.mainloop()
+
